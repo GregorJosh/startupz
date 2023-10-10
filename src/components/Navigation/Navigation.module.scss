@@ -1,0 +1,40 @@
+@use "styles/colors";
+@use "styles/mixins";
+
+.navigation {
+  background-color: white;
+  border: 1px solid black;
+
+  position: absolute;
+  top: 0;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+
+  @include mixins.tablet {
+    display: flex;
+  }
+
+  .close-btn {
+    border-radius: 50%;
+    background-color: white;
+    padding: 1em 1.2em;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .menu-item {
+      margin-right: 40px;
+    }
+  }
+
+  .button {
+    background-color: white;
+    color: colors.$complementaryGreen;
+  }
+}

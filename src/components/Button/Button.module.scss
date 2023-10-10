@@ -1,0 +1,12 @@
+@use "styles/colors";
+
+.button {
+  background-color: colors.$complementaryGreen;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  border: 1px solid colors.$complementaryGreen;
+  border-radius: 32.5px;
+  padding: 15px 20px;
+}
