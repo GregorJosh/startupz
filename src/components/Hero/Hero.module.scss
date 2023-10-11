@@ -5,17 +5,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
-  height: 100vh;
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 145px 50px;
-  }
-}
-
-.container {
   .title {
     font-size: 2em;
     font-weight: 700;
@@ -23,7 +13,7 @@
   }
 
   .description {
-    font-size: 24px;
+    font-size: 1em;
     font-weight: 400;
     color: colors.$primary;
   }

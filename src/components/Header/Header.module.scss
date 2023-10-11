@@ -14,6 +14,7 @@ $height: 60px;
   .container {
     background-color: white;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 20px;

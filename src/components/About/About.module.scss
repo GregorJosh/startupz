@@ -1,13 +1,40 @@
+@use "styles/colors";
+
 .section {
-  height: 100vh;
   background-image: url("../../images/artwork-1.png");
   background-repeat: no-repeat;
-  background-position: right 25%;
+  background-position: right 15%;
 
-  .container {
+  .title {
+    font-size: 2em;
+    font-weight: 700;
+    color: colors.$darkNavy;
+  }
+
+  .description {
+    font-size: 1em;
+    font-weight: 400;
+    color: colors.$primary;
+  }
+
+  .stages {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 145px 50px;
+    gap: 10px;
+    margin-top: 40px;
+
+    .stage {
+      h3 {
+        color: colors.$primary;
+        border-bottom: 1px solid colors.$darkNavy;
+        width: 50px;
+        padding-bottom: 19px;
+      }
+
+      p {
+        margin-top: 26px;
+        color: colors.$darkNavy;
+      }
+    }
   }
 }
