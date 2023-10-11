@@ -1,0 +1,18 @@
+@use "styles/colors";
+
+.section {
+  background-image: url("../../images/artwork-12-1.png"),
+    url("../../images/artwork-12.png");
+  background-repeat: no-repeat;
+  background-position: 60% 15%, 40% 15%;
+
+  .container {
+    align-items: center;
+  }
+
+  .title {
+    color: colors.$primary;
+    font-size: 1.2em;
+    margin-top: 50px;
+  }
+}
