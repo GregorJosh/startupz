@@ -1,15 +1,48 @@
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 125px;
-  padding: 30px 0;
+@use "styles/shadows";
 
-  .logo-link {
-    align-self: flex-end;
+$height: 60px;
+
+.header {
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  box-shadow: shadows.$shadow1;
+}
+
+.header {
+  .container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    height: $height;
+    padding: 0 20px;
+
+    .toggle-menu-btn {
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 25%;
+      stroke: black;
+      stroke-width: 2px;
+
+      .burger-menu-icon {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    .navigation {
+      top: $height;
+    }
   }
+}
 
-  .navigation {
-    align-self: flex-start;
+.header {
+  .logo-icon {
+    width: 200px;
+    height: 49px;
   }
 }

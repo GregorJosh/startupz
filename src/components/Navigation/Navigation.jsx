@@ -2,12 +2,15 @@ import PropTypes from "prop-types";
 import { Button } from "components";
 import styles from "./Navigation.module.scss";
 
-export const Navigation = ({ className = "" }) => {
+export const Navigation = ({ isVisible = false, className = "" }) => {
   const { navigation, button } = styles;
 
   return (
-    <nav className={`${navigation} ${className}`}>
-      <button className={styles["close-btn"]}>&#10006;</button>
+    <nav
+      className={`${
+        isVisible ? navigation : styles["navigation--hidden"]
+      } ${className}`}
+    >
       <ul className={styles["menu-list"]}>
         <li className={styles["menu-item"]}>
           <a href="#startups">Startups</a>
