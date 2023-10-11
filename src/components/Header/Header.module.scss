@@ -4,7 +4,8 @@ $height: 60px;
 
 .header {
   background-color: white;
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 10;
   box-shadow: shadows.$shadow1;
 }
