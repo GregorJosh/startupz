@@ -18,7 +18,7 @@ export const Header = () => {
             <use href={sprite + "#burger-menu"} />
           </svg>
         </button>
-        <a className={styles["logo-link"]} href="/">
+        <a className={styles["logo-link"]} href="#hero">
           <svg className={styles["logo-icon"]}>
             <use href={sprite + "#logo"} />
           </svg>

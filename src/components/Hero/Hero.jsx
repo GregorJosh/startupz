@@ -5,7 +5,7 @@ export const Hero = () => {
   const { section, container, title, description } = styles;
 
   return (
-    <section className={section}>
+    <section id="Hero" className={section}>
       <Container className={container}>
         <h1 className={title}>We Create Startups.</h1>
         <p className={description}>

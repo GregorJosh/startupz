@@ -1,4 +1,4 @@
-import { Header, Hero } from "components";
+import { About, Header, Hero } from "components";
 
 export const App = () => {
   return (
@@ -6,6 +6,7 @@ export const App = () => {
       <Header />
       <main>
         <Hero />
+        <About />
       </main>
     </>
   );
