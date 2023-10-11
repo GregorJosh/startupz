@@ -1,0 +1,13 @@
+.section {
+  background-image: url("../../images/artwork-71.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 145px 50px;
+  }
+}

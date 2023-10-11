@@ -1,5 +1,12 @@
-import { Header } from "components";
+import { Header, Hero } from "components";
 
 export const App = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </>
+  );
 };
