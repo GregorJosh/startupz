@@ -40,6 +40,10 @@ $width: 80%;
 
     .menu-item {
       margin-right: 40px;
+
+      .menu-link {
+        color: colors.$darkNavy;
+      }
     }
   }
 

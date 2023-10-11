@@ -13,10 +13,14 @@ export const Navigation = ({ isVisible = false, className = "" }) => {
     >
       <ul className={styles["menu-list"]}>
         <li className={styles["menu-item"]}>
-          <a href="#startups">Startups</a>
+          <a className={styles["menu-link"]} href="#startups">
+            Startups
+          </a>
         </li>
         <li className={styles["menu-item"]}>
-          <a href="#contact">Contact</a>
+          <a className={styles["menu-link"]} href="#contact">
+            Contact
+          </a>
         </li>
       </ul>
       <Button className={button} label="Work with us!" />
@@ -25,5 +29,6 @@ export const Navigation = ({ isVisible = false, className = "" }) => {
 };
 
 Navigation.propTypes = {
+  isVisible: PropTypes.bool,
   className: PropTypes.string,
 };
