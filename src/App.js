@@ -5,6 +5,7 @@ import {
   Hero,
   OurValues,
   OurWorks,
+  Motivator,
 } from "components";
 
 export const App = () => {
@@ -14,6 +15,7 @@ export const App = () => {
       <main>
         <Hero />
         <About />
+        <Motivator>We love solving problems!</Motivator>
         <Assistant />
         <OurValues />
         <OurWorks />

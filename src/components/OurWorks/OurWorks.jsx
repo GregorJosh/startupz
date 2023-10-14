@@ -4,6 +4,7 @@ import styles from "./OurWorks.module.scss";
 import tolqImage from "images/works/tolq.png";
 import feedbackLabsImage from "images/works/feedback-labs.png";
 import codeKeeperImage from "images/works/codekeeper.png";
+import legalSiteImage from "images/works/legalsite.png";
 
 export const OurWorks = () => {
   const { container, title, works } = styles;
@@ -40,6 +41,15 @@ export const OurWorks = () => {
             Codekeeper is an all-in-one solution for software developers and
             publishers to provide source code escrow as part of service level
             and license agreements.
+          </Work>
+          <Work
+            title="legalSite"
+            titleColor="#8B60D3"
+            imgSrc={legalSiteImage}
+            imgAlt="Macbook pro 15 with touch bar front view."
+          >
+            Protected against legal risks, privacy compliant and always
+            up-to-date with the latest regulatory developments.
           </Work>
         </ul>
       </Container>

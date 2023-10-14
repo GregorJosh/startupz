@@ -8,3 +8,4 @@ export * from "./Assistant/Assistant";
 export * from "./OurValues/OurValues";
 export * from "./OurWorks/OurWorks";
 export * from "./Work/Work";
+export * from "./Motivator/Motivator";

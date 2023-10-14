@@ -1,0 +1,30 @@
+@use "styles/colors";
+
+.section {
+  height: auto;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 40px;
+
+  .image {
+    width: 25%;
+    height: 15%;
+
+    &:first-of-type {
+      align-self: flex-start;
+    }
+
+    &:last-of-type {
+      align-self: flex-end;
+    }
+  }
+
+  .content {
+    color: colors.$primary;
+    font-size: 1.2em;
+  }
+}
