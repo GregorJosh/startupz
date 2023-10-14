@@ -6,6 +6,7 @@ import {
   OurValues,
   OurWorks,
   Motivator,
+  Openings,
 } from "components";
 
 export const App = () => {
@@ -24,6 +25,7 @@ export const App = () => {
           be solved, will be solved by a startup, and that is a huge
           opportunity.
         </Motivator>
+        <Openings />
       </main>
     </>
   );

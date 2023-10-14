@@ -9,3 +9,5 @@ export * from "./OurValues/OurValues";
 export * from "./OurWorks/OurWorks";
 export * from "./Work/Work";
 export * from "./Motivator/Motivator";
+export * from "./Openings/Openings";
+export * from "./SectionTitle/SectionTitle";
