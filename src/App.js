@@ -19,6 +19,11 @@ export const App = () => {
         <Assistant />
         <OurValues />
         <OurWorks />
+        <Motivator>
+          Startups create a world that actually is better. Any problem that can
+          be solved, will be solved by a startup, and that is a huge
+          opportunity.
+        </Motivator>
       </main>
     </>
   );

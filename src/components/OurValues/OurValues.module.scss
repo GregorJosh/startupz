@@ -1,6 +1,7 @@
 @use "styles/colors";
 
 .section {
+  background-color: colors.$lightGray;
   background-image: url("../../images/artwork-2.png");
   background-repeat: no-repeat;
   background-position: right 15%;
