@@ -1,0 +1,39 @@
+@use "styles/colors";
+
+.section {
+  background-image: url("../../images/artwork-2.png");
+  background-repeat: no-repeat;
+  background-position: right 15%;
+
+  .title {
+    font-size: 2em;
+    font-weight: 700;
+    color: colors.$darkNavy;
+  }
+
+  .values {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+
+    .value {
+      h3 {
+        color: colors.$primary;
+
+        &::after {
+            display: block;
+            width: 50px;
+            height: 30px;
+            border-bottom: 1px solid colors.$darkNavy;
+            content: ' ';
+        }
+      }
+
+      p {
+        margin-top: 25px;
+        color: colors.$darkNavy;
+      }
+    }
+  }
+}

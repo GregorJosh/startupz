@@ -1,9 +1,10 @@
-import { Container } from "./Container/Container";
-import { Navigation } from "./Navigation/Navigation";
-import { Header } from "./Header/Header";
-import { Button } from "./Button/Button";
-import { Hero } from "./Hero/Hero";
-import { About } from "./About/About";
-import { Assistant } from "./Assistant/Assistant";
-
-export { Container, Navigation, Header, Button, Hero, About, Assistant };
+export * from "./Container/Container";
+export * from "./Navigation/Navigation";
+export * from "./Header/Header";
+export * from "./Button/Button";
+export * from "./Hero/Hero";
+export * from "./About/About";
+export * from "./Assistant/Assistant";
+export * from "./OurValues/OurValues";
+export * from "./OurWorks/OurWorks";
+export * from "./Work/Work";
