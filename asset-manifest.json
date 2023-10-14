@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/startupz/static/css/main.0573b845.css",
-    "main.js": "/startupz/static/js/main.b53c9c9e.js",
+    "main.css": "/startupz/static/css/main.c996794d.css",
+    "main.js": "/startupz/static/js/main.b8134a84.js",
     "static/media/CircularStd-MediumItalic.svg": "/startupz/static/media/CircularStd-MediumItalic.08cb980d630a11601a47.svg",
     "static/media/CircularStd-BoldItalic.svg": "/startupz/static/media/CircularStd-BoldItalic.30cf0be27a76834c180e.svg",
     "static/media/CircularStd-BlackItalic.svg": "/startupz/static/media/CircularStd-BlackItalic.03ccb32fe9734beb80b4.svg",
@@ -30,10 +30,12 @@
     "static/media/codekeeper.png": "/startupz/static/media/codekeeper.ffc5af3531447280ab39.png",
     "static/media/feedback-labs.png": "/startupz/static/media/feedback-labs.fb46fbd1c5478be03087.png",
     "static/media/tolq.png": "/startupz/static/media/tolq.92f568ff9ae39aad89b1.png",
+    "static/media/artwork-6.png": "/startupz/static/media/artwork-6.f8d9acb8a35dbea7ae0f.png",
     "static/media/CircularStd-BlackItalic.woff": "/startupz/static/media/CircularStd-BlackItalic.160610ae8205f5c66ae5.woff",
     "static/media/CircularStd-BoldItalic.woff": "/startupz/static/media/CircularStd-BoldItalic.eeb47162f840d81b999f.woff",
     "static/media/legalsite.png": "/startupz/static/media/legalsite.fd05f3937942674d8664.png",
     "static/media/CircularStd-MediumItalic.woff": "/startupz/static/media/CircularStd-MediumItalic.8ffa91cf3bbb50d181ed.woff",
+    "static/media/artwork-5.png": "/startupz/static/media/artwork-5.8fef7ab7ed90a3560e0b.png",
     "static/media/CircularStd-Bold.woff": "/startupz/static/media/CircularStd-Bold.4bae1919c290b4010366.woff",
     "static/media/CircularStd-Black.woff": "/startupz/static/media/CircularStd-Black.4a2c5eeb3ab64924ab01.woff",
     "static/media/CircularStd-Medium.woff": "/startupz/static/media/CircularStd-Medium.e39d4081b339f42a2a55.woff",
@@ -41,11 +43,11 @@
     "static/media/CircularStd-Book.woff": "/startupz/static/media/CircularStd-Book.b9b1abe339ba6639afff.woff",
     "static/media/sprite.svg": "/startupz/static/media/sprite.a302a822ba2bbbec2e2225365331c4a3.svg",
     "index.html": "/startupz/index.html",
-    "main.0573b845.css.map": "/startupz/static/css/main.0573b845.css.map",
-    "main.b53c9c9e.js.map": "/startupz/static/js/main.b53c9c9e.js.map"
+    "main.c996794d.css.map": "/startupz/static/css/main.c996794d.css.map",
+    "main.b8134a84.js.map": "/startupz/static/js/main.b8134a84.js.map"
   },
   "entrypoints": [
-    "static/css/main.0573b845.css",
-    "static/js/main.b53c9c9e.js"
+    "static/css/main.c996794d.css",
+    "static/js/main.b8134a84.js"
   ]
 }
