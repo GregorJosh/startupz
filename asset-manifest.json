@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/startupz/static/css/main.c996794d.css",
-    "main.js": "/startupz/static/js/main.b8134a84.js",
+    "main.css": "/startupz/static/css/main.cf8c09e0.css",
+    "main.js": "/startupz/static/js/main.c2820b61.js",
     "static/media/CircularStd-MediumItalic.svg": "/startupz/static/media/CircularStd-MediumItalic.08cb980d630a11601a47.svg",
     "static/media/CircularStd-BoldItalic.svg": "/startupz/static/media/CircularStd-BoldItalic.30cf0be27a76834c180e.svg",
     "static/media/CircularStd-BlackItalic.svg": "/startupz/static/media/CircularStd-BlackItalic.03ccb32fe9734beb80b4.svg",
@@ -41,13 +41,41 @@
     "static/media/CircularStd-Medium.woff": "/startupz/static/media/CircularStd-Medium.e39d4081b339f42a2a55.woff",
     "static/media/CircularStd-BookItalic.woff": "/startupz/static/media/CircularStd-BookItalic.6a368664daef7728468a.woff",
     "static/media/CircularStd-Book.woff": "/startupz/static/media/CircularStd-Book.b9b1abe339ba6639afff.woff",
-    "static/media/sprite.svg": "/startupz/static/media/sprite.a302a822ba2bbbec2e2225365331c4a3.svg",
+    "static/media/sprite.svg": "/startupz/static/media/sprite.ee3a86c28b2b00b1dfcf18973cfbcf4f.svg",
+    "static/media/roboto-latin-500-normal.woff2": "/startupz/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
+    "static/media/roboto-latin-400-normal.woff2": "/startupz/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
+    "static/media/roboto-cyrillic-ext-400-normal.woff2": "/startupz/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
+    "static/media/roboto-cyrillic-ext-500-normal.woff2": "/startupz/static/media/roboto-cyrillic-ext-500-normal.62ced72e5832f02c2796.woff2",
+    "static/media/roboto-latin-500-normal.woff": "/startupz/static/media/roboto-latin-500-normal.1f075502d0094a398e21.woff",
+    "static/media/roboto-latin-400-normal.woff": "/startupz/static/media/roboto-latin-400-normal.3f2b9a42f643e62a49b7.woff",
+    "static/media/roboto-cyrillic-ext-400-normal.woff": "/startupz/static/media/roboto-cyrillic-ext-400-normal.af4d91666ea345601bea.woff",
+    "static/media/roboto-cyrillic-ext-500-normal.woff": "/startupz/static/media/roboto-cyrillic-ext-500-normal.268f264f58eba5c07c88.woff",
+    "static/media/roboto-latin-ext-400-normal.woff2": "/startupz/static/media/roboto-latin-ext-400-normal.861b791f9de857a6e7bc.woff2",
+    "static/media/roboto-latin-ext-500-normal.woff2": "/startupz/static/media/roboto-latin-ext-500-normal.9165081d10e1ba601384.woff2",
+    "static/media/roboto-latin-ext-400-normal.woff": "/startupz/static/media/roboto-latin-ext-400-normal.e757c42df6aaa3e11b62.woff",
+    "static/media/roboto-latin-ext-500-normal.woff": "/startupz/static/media/roboto-latin-ext-500-normal.252057e589a0379208ed.woff",
+    "static/media/roboto-cyrillic-500-normal.woff2": "/startupz/static/media/roboto-cyrillic-500-normal.cad7d3d9cb265e334e58.woff2",
+    "static/media/roboto-cyrillic-400-normal.woff2": "/startupz/static/media/roboto-cyrillic-400-normal.71a33b6b50457b2c903a.woff2",
+    "static/media/roboto-cyrillic-500-normal.woff": "/startupz/static/media/roboto-cyrillic-500-normal.965aebef74db72eaf236.woff",
+    "static/media/roboto-cyrillic-400-normal.woff": "/startupz/static/media/roboto-cyrillic-400-normal.c1d66054fe23e181d92c.woff",
+    "static/media/roboto-greek-400-normal.woff2": "/startupz/static/media/roboto-greek-400-normal.c35e4c3958e209d17b31.woff2",
+    "static/media/roboto-greek-500-normal.woff2": "/startupz/static/media/roboto-greek-500-normal.9ac81fefbe6c319ea40b.woff2",
+    "static/media/roboto-greek-400-normal.woff": "/startupz/static/media/roboto-greek-400-normal.dfdff8fa12eac629d29f.woff",
+    "static/media/roboto-greek-500-normal.woff": "/startupz/static/media/roboto-greek-500-normal.1a05a4887ccb810cb4dd.woff",
+    "static/media/roboto-vietnamese-500-normal.woff2": "/startupz/static/media/roboto-vietnamese-500-normal.d8642a3d1d4ef6179644.woff2",
+    "static/media/roboto-vietnamese-400-normal.woff2": "/startupz/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
+    "static/media/roboto-vietnamese-400-normal.woff": "/startupz/static/media/roboto-vietnamese-400-normal.e0e8ba725ebd107367a8.woff",
+    "static/media/roboto-vietnamese-500-normal.woff": "/startupz/static/media/roboto-vietnamese-500-normal.657896dad292ee9a0a0a.woff",
+    "static/media/roboto-greek-ext-500-normal.woff2": "/startupz/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
+    "static/media/roboto-greek-ext-400-normal.woff2": "/startupz/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
+    "static/media/roboto-greek-ext-500-normal.woff": "/startupz/static/media/roboto-greek-ext-500-normal.eaa367bbd0b333a7f80b.woff",
+    "static/media/roboto-greek-ext-400-normal.woff": "/startupz/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/startupz/index.html",
-    "main.c996794d.css.map": "/startupz/static/css/main.c996794d.css.map",
-    "main.b8134a84.js.map": "/startupz/static/js/main.b8134a84.js.map"
+    "main.cf8c09e0.css.map": "/startupz/static/css/main.cf8c09e0.css.map",
+    "main.c2820b61.js.map": "/startupz/static/js/main.c2820b61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c996794d.css",
-    "static/js/main.b8134a84.js"
+    "static/css/main.cf8c09e0.css",
+    "static/js/main.c2820b61.js"
   ]
 }
