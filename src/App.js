@@ -1,3 +1,5 @@
+import { useSelector } from "react-redux";
+
 import {
   About,
   Assistant,
@@ -7,9 +9,13 @@ import {
   OurWorks,
   Motivator,
   Openings,
+  OnBoarding,
+  Footer,
 } from "components";
 
 export const App = () => {
+  const isAssistantVisible = useSelector((state) => state.isAssistantVisible);
+
   return (
     <>
       <Header />
@@ -17,7 +23,7 @@ export const App = () => {
         <Hero />
         <About />
         <Motivator>We love solving problems!</Motivator>
-        <Assistant />
+        {isAssistantVisible && <Assistant />}
         <OurValues />
         <OurWorks />
         <Motivator>
@@ -26,7 +32,9 @@ export const App = () => {
           opportunity.
         </Motivator>
         <Openings />
+        <OnBoarding />
       </main>
+      <Footer />
     </>
   );
 };

@@ -11,3 +11,5 @@ export * from "./Work/Work";
 export * from "./Motivator/Motivator";
 export * from "./Openings/Openings";
 export * from "./SectionTitle/SectionTitle";
+export * from "./OnBoarding/OnBoarding";
+export * from "./Footer/Footer";
