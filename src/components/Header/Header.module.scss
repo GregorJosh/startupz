@@ -1,4 +1,5 @@
 @use "styles/shadows";
+@use "styles/colors";
 
 $height: 60px;
 
@@ -29,6 +30,15 @@ $height: 60px;
       border-radius: 25%;
       stroke: black;
       stroke-width: 2px;
+
+      transition-property: border-color, stroke;
+      transition-duration: 300ms;
+      transition-timing-function: (0.075, 0.82, 0.165, 1);
+
+      &:hover {
+        border-color: colors.$complementaryGreen;
+        stroke: colors.$complementaryGreen;
+      }
 
       .burger-menu-icon {
         width: 25px;

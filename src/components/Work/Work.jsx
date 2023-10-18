@@ -11,7 +11,7 @@ export const Work = ({ titleColor, title, children, imgSrc, imgAlt }) => {
       </h3>
       <p className={content}>{children}</p>
       <img src={imgSrc} alt={imgAlt} />
-      <Button label="More" />
+      <Button label="More" onClick={() => {}} />
     </li>
   );
 };

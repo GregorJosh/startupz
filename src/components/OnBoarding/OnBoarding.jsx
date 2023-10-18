@@ -18,7 +18,7 @@ export const OnBoarding = () => {
   } = styles;
 
   return (
-    <section id="contact" className={section}>
+    <section id="onboarding" className={section}>
       <Container className={container}>
         <svg className={rocket}>
           <use href={sprite + "#rocket"} />

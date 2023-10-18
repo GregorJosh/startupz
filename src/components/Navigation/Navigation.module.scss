@@ -55,6 +55,15 @@ $width: 80%;
   .button {
     background-color: white;
     color: colors.$complementaryGreen;
+
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: (0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      background-color: colors.$complementaryGreen;
+      color: white;
+    }
   }
 }
 

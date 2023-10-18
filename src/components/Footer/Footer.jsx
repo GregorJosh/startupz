@@ -40,7 +40,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div id="contact">
           <h4 className={title}>Contact</h4>
           <address className={address}>
             World Trade Center - The Hague Prinses Margrietplantsoen 33
@@ -56,15 +56,21 @@ export const Footer = () => {
         <div>
           <h4 className={title}>Follow us</h4>
           <div className={icons}>
-            <svg className={icon}>
-              <use href={sprite + "#twitter"} />
-            </svg>
-            <svg className={icon}>
-              <use href={sprite + "#linkedin"} />
-            </svg>
-            <svg className={icon}>
-              <use href={sprite + "#instagram"} />
-            </svg>
+            <a className={link} href="#twitter">
+              <svg className={icon}>
+                <use href={sprite + "#twitter"} />
+              </svg>
+            </a>
+            <a className={link} href="#linkedin">
+              <svg className={icon}>
+                <use href={sprite + "#linkedin"} />
+              </svg>
+            </a>
+            <a className={link} href="#instagram">
+              <svg className={icon}>
+                <use href={sprite + "#instagram"} />
+              </svg>
+            </a>
           </div>
         </div>
       </Container>

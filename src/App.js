@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useSelector } from "react-redux";
 
 import {
@@ -15,6 +16,15 @@ import {
 
 export const App = () => {
   const isAssistantVisible = useSelector((state) => state.isAssistantVisible);
+  const scrollToSection = useSelector((state) => state.scrollToSection);
+
+  useEffect(() => {
+    if (scrollToSection !== "") {
+      const section = document.getElementById(scrollToSection);
+
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [scrollToSection]);
 
   return (
     <>

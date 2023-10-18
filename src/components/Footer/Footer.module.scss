@@ -37,6 +37,11 @@
 
   .link {
     color: colors.$complementaryGreen;
+    transition: color 300ms (0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      color: colors.$darkNavy;
+    }
   }
 
   .address {
@@ -59,5 +64,6 @@
     width: 23px;
     height: 23px;
     fill: colors.$complementaryGreen;
+    transition: fill 600ms (0.075, 0.82, 0.165, 1);
   }
 }

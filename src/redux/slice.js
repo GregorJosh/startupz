@@ -4,16 +4,14 @@ const slice = createSlice({
   name: "main",
   initialState: {
     isAssistantVisible: true,
+    scrollToSection: "",
   },
   reducers: {
     toggleAssistantVisible(state, action) {
       state.isAssistantVisible = !state.isAssistantVisible;
     },
     scrollToSection(state, action) {
-      window.scrollTo({
-        top: action.payload.current.clientTop,
-        behavior: "smooth",
-      });
+      state.scrollToSection = action.payload;
     },
   },
 });

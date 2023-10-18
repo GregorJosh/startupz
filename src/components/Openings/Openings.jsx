@@ -1,7 +1,11 @@
+import { useDispatch } from "react-redux";
 import { Button, Container, SectionTitle } from "components";
+
 import styles from "./Openings.module.scss";
+import { scrollToSection } from "redux/slice";
 
 export const Openings = () => {
+  const dispatch = useDispatch();
   const { section, container, content } = styles;
 
   return (
@@ -12,7 +16,10 @@ export const Openings = () => {
           We're always looking for talented people to join and help build our
           startups. Check out our current openings
         </p>
-        <Button label="See current openings" />
+        <Button
+          label="See current openings"
+          onClick={() => dispatch(scrollToSection("onboarding"))}
+        />
       </Container>
     </section>
   );

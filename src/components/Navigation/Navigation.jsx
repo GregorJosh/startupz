@@ -1,9 +1,18 @@
+import { useDispatch } from "react-redux";
 import PropTypes from "prop-types";
+
 import { Button } from "components";
+import { scrollToSection } from "redux/slice";
+
 import styles from "./Navigation.module.scss";
 
 export const Navigation = ({ isVisible = false, className = "" }) => {
+  const dispatch = useDispatch();
   const { navigation, button } = styles;
+
+  const onBtnClick = (event) => {
+    dispatch(scrollToSection("onboarding"));
+  };
 
   return (
     <nav
@@ -23,7 +32,7 @@ export const Navigation = ({ isVisible = false, className = "" }) => {
           </a>
         </li>
       </ul>
-      <Button className={button} label="Work with us!" />
+      <Button className={button} onClick={onBtnClick} label="Work with us!" />
     </nav>
   );
 };
