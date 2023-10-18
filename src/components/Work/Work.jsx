@@ -2,7 +2,7 @@ import { Button } from "components";
 import styles from "./Work.module.scss";
 
 export const Work = ({ titleColor, title, children, imgSrc, imgAlt }) => {
-  const { content } = styles;
+  const { content, button } = styles;
 
   return (
     <li className={styles["list-item"]}>
@@ -11,7 +11,7 @@ export const Work = ({ titleColor, title, children, imgSrc, imgAlt }) => {
       </h3>
       <p className={content}>{children}</p>
       <img src={imgSrc} alt={imgAlt} />
-      <Button label="More" onClick={() => {}} />
+      <Button className={button} label="More" onClick={() => {}} />
     </li>
   );
 };

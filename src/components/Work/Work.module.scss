@@ -1,4 +1,5 @@
 @use "styles/colors";
+@use "styles/mixins";
 
 .list-item {
   display: flex;
@@ -11,12 +12,46 @@
   border-radius: 30px;
   box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
 
+  @include mixins.tablet {
+    flex-basis: calc((100% / 2) - 20px);
+  }
+
   .title {
     font-weight: 700;
+    letter-spacing: -0.32px;
+
+    @include mixins.tablet {
+      font-size: 32px;
+      line-height: 30px;
+    }
   }
 
   .content {
     text-align: center;
     color: colors.$darkNavy;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+
+    @include mixins.tablet {
+      font-size: 16px;
+    }
+  }
+
+  .button {
+    background-color: white;
+    color: colors.$complementaryGreen;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 30px;
+
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: (0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      background-color: colors.$complementaryGreen;
+      color: white;
+    }
   }
 }
