@@ -1,5 +1,6 @@
 @use "styles/shadows";
 @use "styles/colors";
+@use "styles/mixins";
 
 $height: 60px;
 
@@ -9,6 +10,10 @@ $height: 60px;
   width: 100%;
   z-index: 10;
   box-shadow: shadows.$shadow1;
+
+  @include mixins.tablet {
+    box-shadow: none;
+  }
 }
 
 .header {
@@ -22,6 +27,10 @@ $height: 60px;
     height: $height;
     padding: 0 20px;
 
+    @include mixins.tablet {
+      justify-content: space-between;
+    }
+
     .toggle-menu-btn {
       width: 30px;
       height: 30px;
@@ -30,6 +39,10 @@ $height: 60px;
       border-radius: 25%;
       stroke: black;
       stroke-width: 2px;
+
+      @include mixins.tablet {
+        display: none;
+      }
 
       transition-property: border-color, stroke;
       transition-duration: 300ms;

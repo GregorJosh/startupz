@@ -1,13 +1,13 @@
-import { Container } from "components";
+import { Container, SectionTitle } from "components";
 import styles from "./About.module.scss";
 
 export const About = () => {
-  const { section, container, title, description, stages, stage } = styles;
+  const { section, container, description, stages, stage } = styles;
 
   return (
     <section id="about" className={section}>
       <Container className={container}>
-        <h2 className={title}>Who we are</h2>
+        <SectionTitle>Who we are</SectionTitle>
         <p className={description}>
           We create products that have innovation and technology at their core.
           We value working with talented people that understand the

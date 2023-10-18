@@ -1,7 +1,13 @@
 @use "styles/colors";
+@use "styles/mixins";
 
 .title {
   font-size: 2em;
   font-weight: 700;
   color: colors.$darkNavy;
+  letter-spacing: -1px;
+
+  @include mixins.tablet {
+    font-size: 50px;
+  }
 }

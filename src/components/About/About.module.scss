@@ -1,21 +1,30 @@
 @use "styles/colors";
+@use "styles/mixins";
 
 .section {
   background-color: colors.$lightGray;
-  background-image: url("../../images/artwork-1.png");
-  background-repeat: no-repeat;
-  background-position: right 15%;
 
-  .title {
-    font-size: 2em;
-    font-weight: 700;
-    color: colors.$darkNavy;
+  .container {
+    background-image: url("../../images/artwork-1.png");
+    background-repeat: no-repeat;
+    background-position: right 15%;
+
+    @include mixins.tablet {
+      background-position: right 146px;
+    }
   }
 
   .description {
     font-size: 1em;
     font-weight: 400;
     color: colors.$primary;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+
+    @include mixins.tablet {
+      font-size: 24px;
+      width: 874px;
+    }
   }
 
   .stages {
@@ -24,17 +33,33 @@
     gap: 10px;
     margin-top: 40px;
 
+    @include mixins.tablet {
+      flex-direction: row;
+      gap: 95px;
+    }
+
     .stage {
       h3 {
         color: colors.$primary;
         border-bottom: 1px solid colors.$darkNavy;
         width: 50px;
         padding-bottom: 19px;
+        letter-spacing: -0.3px;
+        font-weight: 700;
+
+        @include mixins.tablet {
+          font-size: 30px;
+        }
       }
 
       p {
         margin-top: 26px;
         color: colors.$darkNavy;
+
+        @include mixins.tablet {
+          font-size: 30px;
+          line-height: 38px;
+        }
       }
     }
   }
