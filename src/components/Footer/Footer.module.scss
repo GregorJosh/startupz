@@ -1,0 +1,63 @@
+@use "styles/colors";
+
+.container {
+  padding: 90px 20px 100px;
+  gap: 50px;
+
+  .logo {
+    width: 178.876px;
+
+    p {
+      width: 156px;
+      margin-top: 40px;
+
+      color: #939393;
+      font-family: CircularStd;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 178px;
+    height: 43px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .link {
+    color: colors.$complementaryGreen;
+  }
+
+  .address {
+    margin-bottom: 10px;
+
+    color: colors.$gray;
+    font-family: CircularStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 23px;
+    height: 23px;
+    fill: colors.$complementaryGreen;
+  }
+}
