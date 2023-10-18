@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { toggleAssistantVisible } from "redux/mainSlice";
+import { toggleAssistantVisible } from "redux/slice";
 import styles from "./Assistant.module.scss";
 import artwork from "images/artwork-72.png";
 

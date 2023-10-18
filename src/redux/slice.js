@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const mainSlice = createSlice({
+const slice = createSlice({
   name: "main",
   initialState: {
     isAssistantVisible: true,
@@ -12,5 +12,5 @@ const mainSlice = createSlice({
   },
 });
 
-export const { toggleAssistantVisible } = mainSlice.actions;
-export const mainReducer = mainSlice.reducer;
+export const { toggleAssistantVisible } = slice.actions;
+export const reducer = slice.reducer;
