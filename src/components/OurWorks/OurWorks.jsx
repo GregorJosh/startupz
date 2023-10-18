@@ -10,7 +10,7 @@ export const OurWorks = () => {
   const { section, container, title, works } = styles;
 
   return (
-    <section className={section}>
+    <section id="startups" className={section}>
       <Container className={container}>
         <h2 className={title}>Our works</h2>
         <ul className={works}>
