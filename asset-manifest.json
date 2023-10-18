@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/startupz/static/css/main.cf8c09e0.css",
-    "main.js": "/startupz/static/js/main.c2820b61.js",
+    "main.css": "/startupz/static/css/main.4c71c1a3.css",
+    "main.js": "/startupz/static/js/main.f227f03a.js",
     "static/media/CircularStd-MediumItalic.svg": "/startupz/static/media/CircularStd-MediumItalic.08cb980d630a11601a47.svg",
     "static/media/CircularStd-BoldItalic.svg": "/startupz/static/media/CircularStd-BoldItalic.30cf0be27a76834c180e.svg",
     "static/media/CircularStd-BlackItalic.svg": "/startupz/static/media/CircularStd-BlackItalic.03ccb32fe9734beb80b4.svg",
@@ -41,7 +41,7 @@
     "static/media/CircularStd-Medium.woff": "/startupz/static/media/CircularStd-Medium.e39d4081b339f42a2a55.woff",
     "static/media/CircularStd-BookItalic.woff": "/startupz/static/media/CircularStd-BookItalic.6a368664daef7728468a.woff",
     "static/media/CircularStd-Book.woff": "/startupz/static/media/CircularStd-Book.b9b1abe339ba6639afff.woff",
-    "static/media/sprite.svg": "/startupz/static/media/sprite.ee3a86c28b2b00b1dfcf18973cfbcf4f.svg",
+    "static/media/sprite.svg": "/startupz/static/media/sprite.b755636414ac40051a269ce630bea7e5.svg",
     "static/media/roboto-latin-500-normal.woff2": "/startupz/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/startupz/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/startupz/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
@@ -71,11 +71,11 @@
     "static/media/roboto-greek-ext-500-normal.woff": "/startupz/static/media/roboto-greek-ext-500-normal.eaa367bbd0b333a7f80b.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/startupz/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/startupz/index.html",
-    "main.cf8c09e0.css.map": "/startupz/static/css/main.cf8c09e0.css.map",
-    "main.c2820b61.js.map": "/startupz/static/js/main.c2820b61.js.map"
+    "main.4c71c1a3.css.map": "/startupz/static/css/main.4c71c1a3.css.map",
+    "main.f227f03a.js.map": "/startupz/static/js/main.f227f03a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf8c09e0.css",
-    "static/js/main.c2820b61.js"
+    "static/css/main.4c71c1a3.css",
+    "static/js/main.f227f03a.js"
   ]
 }
