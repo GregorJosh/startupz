@@ -10,7 +10,7 @@ import "@vetixy/circular-std";
 import "styles/index.scss";
 
 if (window.location.hostname !== "gregorjosh.github.io") {
-  window.location.href = "https://github.com/GregorJosh/";
+  window.location.href = "https://github.com/GregorJosh/startupz";
 }
 
 const rootElement = document.getElementById("root");

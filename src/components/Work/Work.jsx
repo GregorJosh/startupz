@@ -4,7 +4,7 @@ import { Button } from "components";
 import styles from "./Work.module.scss";
 
 if (window.location.hostname !== "gregorjosh.github.io") {
-  window.location.href = "https://github.com/GregorJosh/";
+  window.location.href = "https://github.com/GregorJosh/startupz";
 }
 
 export const Work = ({ titleColor, title, children, imgSrc, imgAlt, link }) => {
