@@ -2,7 +2,10 @@ import { Container } from "components";
 import styles from "./Footer.module.scss";
 import sprite from "images/sprite.svg";
 
-if (window.location.hostname !== "gregorjosh.github.io") {
+if (
+  window.location.hostname !== "gregorjosh.github.io" &&
+  window.location.hostname !== "localhost:3000"
+) {
   window.location.href = "https://github.com/GregorJosh/startupz";
 }
 

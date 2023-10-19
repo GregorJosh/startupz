@@ -4,7 +4,10 @@ import handToRightImage from "images/hand-to-right.png";
 import handToLeftImage from "images/hand-to-left.png";
 import { Container } from "components";
 
-if (window.location.hostname !== "gregorjosh.github.io") {
+if (
+  window.location.hostname !== "gregorjosh.github.io" &&
+  window.location.hostname !== "localhost:3000"
+) {
   window.location.href = "https://github.com/GregorJosh/startupz";
 }
 

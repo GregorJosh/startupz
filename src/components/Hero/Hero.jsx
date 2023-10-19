@@ -4,7 +4,10 @@ import { Button, Container } from "components";
 import styles from "./Hero.module.scss";
 import { scrollToSection } from "redux/slice";
 
-if (window.location.hostname !== "gregorjosh.github.io") {
+if (
+  window.location.hostname !== "gregorjosh.github.io" &&
+  window.location.hostname !== "localhost:3000"
+) {
   window.location.href = "https://github.com/GregorJosh/startupz";
 }
 

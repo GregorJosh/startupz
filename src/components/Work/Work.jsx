@@ -3,7 +3,10 @@ import PropTypes from "prop-types";
 import { Button } from "components";
 import styles from "./Work.module.scss";
 
-if (window.location.hostname !== "gregorjosh.github.io") {
+if (
+  window.location.hostname !== "gregorjosh.github.io" &&
+  window.location.hostname !== "localhost:3000"
+) {
   window.location.href = "https://github.com/GregorJosh/startupz";
 }
 
