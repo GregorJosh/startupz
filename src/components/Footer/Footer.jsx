@@ -10,31 +10,33 @@ export const Footer = () => {
     <footer>
       <Container className={container}>
         <div className={logo}>
-          <svg className={image}>
-            <use href={sprite + "#logo"} />
-          </svg>
+          <a href="#hero">
+            <svg className={image}>
+              <use href={sprite + "#logo"} />
+            </svg>
+          </a>
           <p>© 2020 Startupz. All rights reserved. </p>
         </div>
         <div>
           <h4 className={title}>Companies</h4>
           <ul className={links}>
             <li>
-              <a className={link} href="#tolq">
+              <a className={link} href="https://tolq.com">
                 Tolq
               </a>
             </li>
             <li>
-              <a className={link} href="#legalsite">
+              <a className={link} href="https://legalsite.co/">
                 LegalSite
               </a>
             </li>
             <li>
-              <a className={link} href="#codekeeper">
+              <a className={link} href="https://codekeeper.co/">
                 Codekeeper
               </a>
             </li>
             <li>
-              <a className={link} href="#feedback-labs">
+              <a className={link} href="https://www.feedbacklabs.com/">
                 Feedback Labs
               </a>
             </li>
@@ -43,7 +45,7 @@ export const Footer = () => {
         <div id="contact">
           <h4 className={title}>Contact</h4>
           <address className={address}>
-            World Trade Center - The Hague 
+            World Trade Center - The Hague
             <br />
             Prinses Margrietplantsoen 33
             <br />
