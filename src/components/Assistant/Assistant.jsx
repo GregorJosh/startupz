@@ -3,6 +3,10 @@ import { toggleAssistantVisible } from "redux/slice";
 import styles from "./Assistant.module.scss";
 import artwork from "images/artwork-72.png";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Assistant = () => {
   const dispatch = useDispatch();
   const { assistant, avatar, message } = styles;

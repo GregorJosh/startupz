@@ -15,6 +15,10 @@ import {
   Footer,
 } from "components";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const App = () => {
   const dispatch = useDispatch();
   const isAssistantVisible = useSelector((state) => state.isAssistantVisible);

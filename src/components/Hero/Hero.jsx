@@ -4,7 +4,12 @@ import { Button, Container } from "components";
 import styles from "./Hero.module.scss";
 import { scrollToSection } from "redux/slice";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Hero = () => {
+
   const dispatch = useDispatch();
   const { section, container, title, description } = styles;
 

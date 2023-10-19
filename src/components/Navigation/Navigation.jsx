@@ -6,6 +6,10 @@ import { scrollToSection, toggleNavigationVisible } from "redux/slice";
 
 import styles from "./Navigation.module.scss";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Navigation = ({ className = "" }) => {
   const dispatch = useDispatch();
   const isNavigationVisible = useSelector((state) => state.isNavigationVisible);

@@ -4,6 +4,10 @@ import { Button, Container, SectionTitle } from "components";
 import styles from "./Openings.module.scss";
 import { scrollToSection } from "redux/slice";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Openings = () => {
   const dispatch = useDispatch();
   const { section, container, content } = styles;

@@ -2,6 +2,10 @@ import { Container } from "components";
 import styles from "./Footer.module.scss";
 import sprite from "images/sprite.svg";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Footer = () => {
   const { container, title, links, link, address, logo, image, icons, icon } =
     styles;

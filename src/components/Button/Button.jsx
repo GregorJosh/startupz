@@ -1,6 +1,10 @@
 import PropTypes from "prop-types";
 import styles from "./Button.module.scss";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const Button = ({ label, onClick, className = "" }) => {
   return (
     <button className={`${styles.button} ${className}`} onClick={onClick}>

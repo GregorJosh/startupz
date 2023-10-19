@@ -1,3 +1,7 @@
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export * from "./Container/Container";
 export * from "./Navigation/Navigation";
 export * from "./Header/Header";

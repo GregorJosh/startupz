@@ -1,6 +1,10 @@
 import { Container, SectionTitle } from "components";
 import styles from "./OurValues.module.scss";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const OurValues = () => {
   const { section, container, values, value } = styles;
 

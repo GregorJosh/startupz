@@ -6,6 +6,10 @@ import feedbackLabsImage from "images/works/feedback-labs.png";
 import codeKeeperImage from "images/works/codekeeper.png";
 import legalSiteImage from "images/works/legalsite.png";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 export const OurWorks = () => {
   const { section, container, works } = styles;
 

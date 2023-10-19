@@ -9,6 +9,10 @@ import { App } from "App";
 import "@vetixy/circular-std";
 import "styles/index.scss";
 
+if (window.location.hostname !== "gregorjosh.github.io") {
+  window.location.href = "https://github.com/GregorJosh/";
+}
+
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 
