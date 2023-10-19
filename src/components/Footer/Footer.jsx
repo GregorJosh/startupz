@@ -43,7 +43,9 @@ export const Footer = () => {
         <div id="contact">
           <h4 className={title}>Contact</h4>
           <address className={address}>
-            World Trade Center - The Hague Prinses Margrietplantsoen 33
+            World Trade Center - The Hague 
+            <br />
+            Prinses Margrietplantsoen 33
             <br />
             2595 AM The Hague
             <br />

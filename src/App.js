@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { scrollToSection as scrollTo } from "redux/slice";
 
 import {
   About,
@@ -15,6 +16,7 @@ import {
 } from "components";
 
 export const App = () => {
+  const dispatch = useDispatch();
   const isAssistantVisible = useSelector((state) => state.isAssistantVisible);
   const scrollToSection = useSelector((state) => state.scrollToSection);
 
@@ -23,8 +25,9 @@ export const App = () => {
       const section = document.getElementById(scrollToSection);
 
       section.scrollIntoView({ behavior: "smooth" });
+      dispatch(scrollTo(""));
     }
-  }, [scrollToSection]);
+  }, [scrollToSection, dispatch]);
 
   return (
     <>

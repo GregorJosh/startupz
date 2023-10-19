@@ -53,10 +53,12 @@ $width: 80%;
     }
 
     .menu-item {
-      margin-right: 40px;
-
       @include mixins.tablet {
         margin: 0 10px;
+      }
+
+      @include mixins.desktop {
+        margin-right: 40px;
       }
 
       .menu-link {

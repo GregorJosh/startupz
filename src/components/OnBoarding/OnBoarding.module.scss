@@ -7,19 +7,33 @@
   overflow: hidden;
   background-color: colors.$secondary;
 
+  @include mixins.desktop {
+    height: auto;
+  }
+
   .container {
     align-items: center;
-    padding-top: 80px;
+    padding: 90px 20px 70px;
+
+    @include mixins.desktop {
+      align-items: flex-start;
+    }
   }
 }
 
 .container {
-  align-items: center;
-
   .rocket {
     position: absolute;
     right: 0;
     bottom: 0;
+
+    @include mixins.desktop {
+      right: 100px;
+      bottom: -180px;
+      height: 890px;
+      width: 650px;
+      z-index: -1;
+    }
   }
 
   .title {
@@ -35,6 +49,10 @@
     line-height: 24px;
     letter-spacing: -0.24px;
     align-self: flex-end;
+
+    @include mixins.desktop {
+      align-self: auto;
+    }
   }
 
   .form {
@@ -47,6 +65,13 @@
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
+
+    @include mixins.desktop {
+      align-items: flex-start;
+      height: 601px;
+      width: 512px;
+      padding-top: 72px;
+    }
   }
 }
 
@@ -58,10 +83,15 @@
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 400;
+    width: 100%;
   }
 
   .textarea {
-    resize: vertical;
+    resize: none;
+
+    @include mixins.desktop {
+      height: 270px;
+    }
   }
 
   .button {
@@ -72,7 +102,7 @@
     @include mixins.transition(color, background-color);
 
     &:hover {
-      background-color: white;
+      background-color: transparent;
       color: colors.$darkNavy;
     }
   }

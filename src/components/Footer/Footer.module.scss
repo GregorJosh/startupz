@@ -1,8 +1,14 @@
 @use "styles/colors";
+@use "styles/mixins";
 
 .container {
   padding: 90px 20px 100px;
   gap: 50px;
+
+  @include mixins.desktop {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .logo {
     width: 178.876px;
@@ -16,12 +22,12 @@
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px; /* 166.667% */
+      line-height: 30px;
     }
   }
 
   .title {
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
 
   .image {

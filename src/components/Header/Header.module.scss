@@ -31,6 +31,11 @@ $height: 60px;
       justify-content: space-between;
     }
 
+    @include mixins.desktop {
+      padding: 35px 20px 2px;
+      height: auto;
+    }
+
     .toggle-menu-btn {
       width: 30px;
       height: 30px;
