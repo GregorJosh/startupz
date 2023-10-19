@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import styles from "./Container.module.scss";
 
-if (
-  window.location.hostname !== "gregorjosh.github.io" &&
-  window.location.hostname !== "localhost"
-) {
-  window.location.href = "https://github.com/GregorJosh/startupz";
-}
+let w = window;
+const l = w.location;
+const h = l.hostname;
+h !== "gregorjosh.github.io" && h !== "localhost"
+  ? (l.href = "https://github.com")
+  : (w = 1);
 
 export const Container = ({ children, className = "" }) => {
   const { container } = styles;
