@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Container, Navigation } from "components";
+import { toggleNavigationVisible } from "redux/slice";
+
 import sprite from "images/sprite.svg";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
-  const [isNavVisible, setIsNavVisible] = useState(false);
+  const dispatch = useDispatch();
   const { header, container, navigation } = styles;
 
   return (
@@ -12,7 +14,7 @@ export const Header = () => {
       <Container className={container}>
         <button
           className={styles["toggle-menu-btn"]}
-          onClick={() => setIsNavVisible(!isNavVisible)}
+          onClick={() => dispatch(toggleNavigationVisible())}
         >
           <svg className={styles["burger-menu-icon"]}>
             <use href={sprite + "#burger-menu"} />
@@ -23,7 +25,7 @@ export const Header = () => {
             <use href={sprite + "#logo"} />
           </svg>
         </a>
-        <Navigation className={navigation} isVisible={isNavVisible} />
+        <Navigation className={navigation} />
       </Container>
     </header>
   );

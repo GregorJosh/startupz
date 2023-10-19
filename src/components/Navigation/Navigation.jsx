@@ -1,38 +1,52 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import PropTypes from "prop-types";
 
 import { Button } from "components";
-import { scrollToSection } from "redux/slice";
+import { scrollToSection, toggleNavigationVisible } from "redux/slice";
 
 import styles from "./Navigation.module.scss";
 
-export const Navigation = ({ isVisible = false, className = "" }) => {
+export const Navigation = ({ className = "" }) => {
   const dispatch = useDispatch();
+  const isNavigationVisible = useSelector((state) => state.isNavigationVisible);
   const { navigation, button } = styles;
 
-  const onBtnClick = (event) => {
-    dispatch(scrollToSection("onboarding"));
+  const scroll = (to) => {
+    dispatch(scrollToSection(to));
+    dispatch(toggleNavigationVisible());
   };
 
   return (
     <nav
       className={`${
-        isVisible ? navigation : styles["navigation--hidden"]
+        isNavigationVisible ? navigation : styles["navigation--hidden"]
       } ${className}`}
     >
       <ul className={styles["menu-list"]}>
         <li className={styles["menu-item"]}>
-          <a className={styles["menu-link"]} href="#startups">
+          <a
+            className={styles["menu-link"]}
+            href="#startups"
+            onClick={() => scroll("startups")}
+          >
             Startups
           </a>
         </li>
         <li className={styles["menu-item"]}>
-          <a className={styles["menu-link"]} href="#contact">
+          <a
+            className={styles["menu-link"]}
+            href="#contact"
+            onClick={() => scroll("contact")}
+          >
             Contact
           </a>
         </li>
       </ul>
-      <Button className={button} onClick={onBtnClick} label="Work with us!" />
+      <Button
+        className={button}
+        onClick={() => scroll("onboarding")}
+        label="Work with us!"
+      />
     </nav>
   );
 };
