@@ -11,13 +11,11 @@
   border-radius: 32.5px;
   padding: 5px 10px;
 
-  @include mixins.tablet {
+  @include mixins.desktop {
     padding: 13px 26px;
   }
 
-  transition-property: background-color, color;
-  transition-duration: 300ms;
-  transition-timing-function: (0.075, 0.82, 0.165, 1);
+  @include mixins.transition(color, background-color);
 
   &:hover {
     background-color: white;

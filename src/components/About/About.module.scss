@@ -19,10 +19,14 @@
     font-weight: 400;
     color: colors.$primary;
     letter-spacing: -0.24px;
-    line-height: 30px;
 
     @include mixins.tablet {
+      width: 60%;
+    }
+
+    @include mixins.desktop {
       font-size: 24px;
+      line-height: 30px;
       width: 874px;
     }
   }
@@ -35,6 +39,10 @@
 
     @include mixins.tablet {
       flex-direction: row;
+      gap: 20px;
+    }
+
+    @include mixins.desktop {
       gap: 95px;
     }
 

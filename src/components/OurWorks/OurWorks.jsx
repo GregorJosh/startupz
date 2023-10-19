@@ -1,4 +1,4 @@
-import { Container, Work } from "components";
+import { Container, SectionTitle, Work } from "components";
 import styles from "./OurWorks.module.scss";
 
 import tolqImage from "images/works/tolq.png";
@@ -7,12 +7,12 @@ import codeKeeperImage from "images/works/codekeeper.png";
 import legalSiteImage from "images/works/legalsite.png";
 
 export const OurWorks = () => {
-  const { section, container, title, works } = styles;
+  const { section, container, works } = styles;
 
   return (
     <section id="startups" className={section}>
       <Container className={container}>
-        <h2 className={title}>Our works</h2>
+        <SectionTitle>Our works</SectionTitle>
         <ul className={works}>
           <Work
             title="Tolq"

@@ -6,9 +6,13 @@
     url("../../images/artwork-5.png");
   background-position: left 50px, right bottom;
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 40%;
 
   @include mixins.tablet {
+    background-size: 50%;
+  }
+
+  @include mixins.desktop {
     background-size: 291px 319px;
     background-position: left center, right center;
   }
@@ -27,7 +31,7 @@
       line-height: 30px;
       letter-spacing: -0.24px;
       color: colors.$primary;
-      
+
       @include mixins.tablet {
         width: 443px;
         font-size: 24px;

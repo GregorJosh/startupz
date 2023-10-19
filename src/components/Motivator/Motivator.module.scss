@@ -42,10 +42,14 @@
   .content {
     color: colors.$primary;
     font-size: 1.2em;
+    text-align: center;
 
     @include mixins.tablet {
-      font-size: 40px;
       font-weight: 700;
+    }
+
+    @include mixins.desktop {
+      font-size: 40px;
     }
   }
 }

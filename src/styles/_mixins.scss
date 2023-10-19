@@ -1,5 +1,17 @@
 @mixin tablet {
-  @media screen and (min-width: 470px) {
+  @media screen and (min-width: 780px) {
     @content;
   }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin transition($props...) {
+  transition-property: $props;
+  transition-duration: 300ms;
+  transition-timing-function: (0.075, 0.82, 0.165, 1);
 }

@@ -1,4 +1,5 @@
 @use "styles/colors";
+@use "styles/mixins";
 
 .section {
   position: relative;
@@ -66,13 +67,9 @@
   .button {
     background-color: colors.$darkNavy;
     border-color: colors.$darkNavy;
-    font-size: 18px;
-    font-weight: 700;
     align-self: center;
 
-    transition-property: background-color, color;
-    transition-duration: 300ms;
-    transition-timing-function: (0.075, 0.82, 0.165, 1);
+    @include mixins.transition(color, background-color);
 
     &:hover {
       background-color: white;
